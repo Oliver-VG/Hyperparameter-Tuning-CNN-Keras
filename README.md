@@ -15,15 +15,15 @@ Make sure you have the following packages installed (preferably in a virtual env
     - Matplotlib
     - scikit-learn (for the classification report and confusion matrix)
 
-Example installation with pip:
+Example installation with pip: \
 pip install \
   tensorflow \
   keras-tuner \
   numpy \
   matplotlib \
-  scikit-learn \
+  scikit-learn 
 
-Usage:
+Usage: \
 Clone this repository or download the .ipynb file: \
 git clone https://github.com/Oliver-VG/Hyperparameter-Tuning-CNN-Keras.git \
 cd Hyperparameter-Tuning-CNN-Keras \
@@ -32,9 +32,9 @@ Install dependencies (as shown above or via a requirements.txt if provided).\
 Run Jupyter Notebook or JupyterLab:\
     jupyter notebook HPTuning-CNN-Keras.ipynb \
     Then open the notebook in your browser. \
-    Execute the cell. Keras Tuner will run a hyperparameter search, saving logs to kt_dir/cnn_mnist/ by default. This can be customized in the tuner = kt.Hyperband(...) configuration. \
+    Execute the cell. Keras Tuner will run a hyperparameter search, saving logs to kt_dir/cnn_mnist/ by default. This can be customized in the tuner = kt.Hyperband(...) configuration. 
 
-Notebook Details:
+Notebook Details: \
     - Imports
         TensorFlow, Keras Tuner, NumPy, Matplotlib, scikit-learn, etc.
     - Data Loading & Preprocessing
@@ -63,7 +63,7 @@ Notebook Details:
 
 Results: \
     After the hyperparameter search, the notebook prints the best hyperparameters and test accuracy. \
-    You also see a classification report (precision, recall, F1-score) and a confusion matrix for MNIST digit classification. \
+    You also see a classification report (precision, recall, F1-score) and a confusion matrix for MNIST digit classification. 
 
 Sample output: \
 Best Hyperparameters found: \
