@@ -1,12 +1,12 @@
 # Hyperparameter-Tuning-CNN-Keras
 This repository demonstrates hyperparameter tuning of a Convolutional Neural Network (CNN) on the MNIST dataset using Keras Tuner.
 
-Overview: \
+Overview:
 - Objective: Use the HyperBand search algorithm in Keras Tuner to find optimal hyperparameters (like the number of convolutional filters, kernel size, dense layer size, dropout rate, and learning rate) for an MNIST digit classification task.
 - Dataset: MNIST (handwritten digit images, 28×28 pixels).
 - Frameworks: TensorFlow/Keras for the model definition and Keras Tuner for hyperparameter search.
 
-Dependencies: \
+Dependencies:
 Make sure you have the following packages installed (preferably in a virtual environment or conda environment):
 - Python 3.7+
 - TensorFlow (2.x)
@@ -61,7 +61,7 @@ Notebook Details:
   Generates a classification report and confusion matrix.
   Plots the confusion matrix with Matplotlib.
 
-Results:
+Results: \
 After the hyperparameter search, the notebook prints the best hyperparameters and test accuracy. \
 You also see a classification report (precision, recall, F1-score) and a confusion matrix for MNIST digit classification. 
 
